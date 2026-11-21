@@ -47,34 +47,34 @@
 
 ## Phase 0: Environment Setup (user installs)
 
-- [ ] Install PHP 8.3+, Composer, Node 20+, MySQL 8, Redis (optional).
-- [ ] Create Laravel 13 project with React starter kit: `laravel new marketplace` (pilih React saat prompt) — sudah include auth (Fortify) + dashboard.
-- [ ] Atau: `laravel new marketplace --using=laravel/react-starter-kit` jika tersedia.
-- [ ] Configure `.env` (DB, mailtrap, app URL).
-- [ ] Run `php artisan migrate` (empty first) to verify.
+- [x] Install PHP 8.3+, Composer, Node 20+, MySQL 8, Redis (optional).
+- [x] Create Laravel 13 project with React starter kit: `laravel new marketplace` (pilih React saat prompt) — sudah include auth (Fortify) + dashboard.
+- [x] Atau: `laravel new marketplace --using=laravel/react-starter-kit` jika tersedia.
+- [x] Configure `.env` (DB, mailtrap, app URL).
+- [x] Run `php artisan migrate` (empty first) to verify.
 
 ## Phase 1: Database & Models
 
 ### Task 1: Migrations
-- [ ] Create migration files for all tables in `marketplace-schema.sql` (in dependency order).
-- [ ] Add `unit`, `allow_backorder` to products.
-- [ ] Add `quotation_items` table.
-- [ ] Add unique `carts.session_id`, CHECK rating 1–5, status indexes.
-- [ ] Run `php artisan migrate` and verify.
+- [x] Create migration files for all tables in `marketplace-schema.sql` (in dependency order).
+- [x] Add `unit`, `allow_backorder` to products.
+- [x] Add `quotation_items` table.
+- [x] Add unique `carts.session_id`, CHECK rating 1–5, status indexes.
+- [x] Run `php artisan migrate` and verify.
 
 ### Task 2: Eloquent Models
-- [ ] Create models: Category, Brand, Product, ProductVariant, ProductImage, ProductSpec, Cart, CartItem, Address, Order, OrderItem, Rfq, RfqItem, Quotation, QuotationItem, UpoUpload, Review, BlogPost, Faq, SimulationLog, Page, Setting.
-- [ ] Define relationships (hasMany, belongsTo, etc.).
-- [ ] Add scopes: `active`, `published`.
-- [ ] Add accessors for settings (typed).
+- [x] Create models: Category, Brand, Product, ProductVariant, ProductImage, ProductSpec, Cart, CartItem, Address, Order, OrderItem, Rfq, RfqItem, Quotation, QuotationItem, UpoUpload, Review, BlogPost, Faq, SimulationLog, Page, Setting.
+- [x] Define relationships (hasMany, belongsTo, etc.).
+- [x] Add scopes: `active`, `published`.
+- [x] Add accessors for settings (typed).
 
 ### Task 3: Seeders
-- [ ] CategorySeeder (kategori bahan bangunan + sim defaults).
-- [ ] BrandSeeder.
-- [ ] ProductSeeder (contoh produk dengan sim params).
-- [ ] SettingSeeder (wa_number, admin_email, company_name, address, logo_url).
-- [ ] FaqSeeder.
-- [ ] Run `php artisan db:seed`.
+- [x] CategorySeeder (kategori bahan bangunan + sim defaults).
+- [x] BrandSeeder.
+- [x] ProductSeeder (contoh produk dengan sim params).
+- [x] SettingSeeder (wa_number, admin_email, company_name, address, logo_url).
+- [x] FaqSeeder.
+- [x] Run `php artisan db:seed`.
 
 ## Phase 2: Auth & Admin Shell (starter kit sudah sediakan auth)
 
