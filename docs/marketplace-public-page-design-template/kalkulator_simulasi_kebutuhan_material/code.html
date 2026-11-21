@@ -1,0 +1,765 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-variant": "#d3e4fe", "on-surface": "#0b1c30", "on-primary-fixed-variant": "#7f2b00", "tertiary-fixed": "#6ffbbe", "on-tertiary-container": "#f5fff6", "on-secondary-fixed": "#131b2e", "background": "#f8f9ff", "inverse-on-surface": "#eaf1ff", "surface-dim": "#cbdbf5", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-container-high": "#dce9ff", "tertiary-fixed-dim": "#4edea3", "tertiary-container": "#00855b", "secondary": "#565e74", "on-background": "#0b1c30", "on-tertiary-fixed-variant": "#005236", "inverse-surface": "#213145", "primary-container": "#cc4900", "primary": "#a33900", "on-surface-variant": "#5a4138", "outline-variant": "#e2bfb2", "primary-fixed": "#ffdbce", "on-secondary": "#ffffff", "surface-container-low": "#eff4ff", "on-primary-container": "#fffbff", "on-error-container": "#93000a", "on-secondary-fixed-variant": "#3f465c", "on-error": "#ffffff", "surface-tint": "#a73a00", "primary-fixed-dim": "#ffb599", "on-primary-fixed": "#370e00", "surface": "#f8f9ff", "secondary-container": "#dae2fd", "on-secondary-container": "#5c647a", "tertiary": "#006947", "error-container": "#ffdad6", "outline": "#8e7166", "secondary-fixed": "#dae2fd", "on-tertiary-fixed": "#002113", "secondary-fixed-dim": "#bec6e0", "on-primary": "#ffffff", "surface-container-highest": "#d3e4fe", "error": "#ba1a1a", "inverse-primary": "#ffb599", "surface-container": "#e5eeff", "surface-bright": "#f8f9ff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.25rem", "gutter-mobile": "0.75rem", "space-sm": "0.5rem", "gutter": "1.5rem", "margin-mobile": "1rem", "space-xl": "2.5rem", "space-md": "1rem", "space-lg": "1.5rem", "margin": "2rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "spec-numerical": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "spec-numerical": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(11,28,48,0.06)]"><div class="bg-inverse-surface text-inverse-on-surface font-label-sm text-label-sm"><div class="max-w-[1440px] mx-auto px-margin flex items-center justify-between h-9"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm text-tertiary-fixed">call</span><span>Hotline Proyek: 0812-8899-KARYA</span></span><span class="hidden lg:flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm text-tertiary-fixed">local_shipping</span><span>Pengiriman Armada Jabodetabek &amp; Jawa Barat</span></span><span class="hidden xl:flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm text-tertiary-fixed">verified</span><span>Jaminan Mutu SNI 100%</span></span></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs text-inverse-on-surface hover:text-tertiary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-sm">download</span><span>Daftar Harga Terbaru PDF</span></a><span class="text-outline">|</span><span class="text-tertiary-fixed font-bold tracking-wider">STATUS: GUDANG SIAP KIRIM</span></div></div></div><div class="h-20 bg-surface-container-lowest"><div class="max-w-[1440px] mx-auto px-margin h-full flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="KaryaMaterial Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X2A7otznzmXBL119wNv3VjfIfCQQ_HB7p0_SdvKhX7Ow-SkLQ4lbA0QTkYI8i1x-GKkjP0J3_Z0TUjjgkkzo42sDgJwgTJF1_zW0GPw8O1ZqCo6DVQWUdXPgnRkcbMH5jLNgVFmVh8aA49YQ0DAEc4Nfjw56YK05Lt9rk-WMzkb0rAzCmX7xTjKPix7uEadgykOp7r5FRl734uLon9qSVa4PyvZtINUxiMgHPY-oSTvdtjykkbRJLC8G8"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">KaryaMaterial</span><span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-bold">Distributor Konstruksi</span></div></div><div class="flex-1 max-w-2xl hidden md:flex items-center bg-surface-container-low rounded-lg p-space-xs"><div class="flex items-center px-space-sm text-on-surface font-label-md text-label-md"><span class="whitespace-nowrap">Semua Kategori</span><span class="material-symbols-outlined text-base text-secondary ml-space-xs">expand_more</span></div><div class="w-px h-6 bg-outline-variant mx-space-xs"></div><div class="flex-1 flex items-center px-space-xs"><span class="material-symbols-outlined text-secondary mr-space-xs text-lg">search</span><input class="w-full bg-transparent border-none text-on-surface placeholder:text-secondary focus:outline-none font-body-sm text-body-sm" placeholder="Cari semen gresik, pasir cor, besi ulir 10mm, cat exterior..." type="text"></div><button class="bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md px-space-md py-space-sm rounded transition-colors whitespace-nowrap">Cari Material</button></div><div class="flex items-center gap-space-md shrink-0"><button class="hidden sm:flex items-center gap-space-xs bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded transition-colors"><span class="material-symbols-outlined text-primary text-base">support_agent</span><span>Konsultasi Teknis</span></button><div class="relative flex items-center justify-center w-10 h-10 rounded bg-surface-container-low text-on-surface hover:bg-surface-container cursor-pointer transition-colors"><span class="material-symbols-outlined text-xl">shopping_cart</span><span class="absolute -top-1 -right-1 bg-primary text-on-primary font-label-sm text-label-sm w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span></div><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuavDorgEKnmOwQ5WkwlJw_4pMCQHnk7S27djnhfngn_ycTgedeUf_4IW6ZnQWZyqqQuTIw-w4lW3Cig65nPxdgdevKJgpSLaK-5UmLRPFpJ9RlMjBeSJeFF8xCO7V_6Ub-hOakXMb2lMq53EEWC4wLSwf2NMXcv-X-eL4UEjnHY3_P97r6WxzKI2MMj_NMaI7mRv9Kyhe7GDubEQiJC1hidkkcKLSUnGhRgk2qhlzoN53xu6PBKHZ"><div class="hidden xl:flex flex-col text-left"><span class="font-label-md text-label-md font-bold text-on-surface leading-tight">PT Adhi Karya Mandiri</span><span class="font-label-sm text-label-sm text-tertiary font-bold leading-tight">B2B Tier Gold</span></div></div></div></div></div><div class="bg-surface-container-low"><div class="max-w-[1440px] mx-auto px-margin flex items-center justify-between h-11"><nav class="flex items-center gap-space-sm overflow-x-auto" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="beranda" href="#">Beranda</a><div class="flex items-center gap-space-xs"><a aria-current="page" class="px-space-md py-1.5 rounded transition-colors whitespace-nowrap bg-primary-container text-on-primary-container font-bold" data-path="kalkulator-simulasi" href="#">Kalkulator Simulasi</a><span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Fitur Unggulan</span></div><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="belanja-material" href="#">Belanja Material</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="layanan-kontraktor-dan-b2b" href="#">Layanan Kontraktor &amp; B2B</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="tentang-kami-dan-sertifikasi-sni" href="#">Tentang Kami &amp; Sertifikasi SNI</a></nav><div class="hidden md:flex items-center gap-space-xs font-label-sm text-label-sm text-secondary"><span class="material-symbols-outlined text-sm text-tertiary">shield</span><span>Transaksi Resmi PPN 11% Faktur Pajak</span></div></div></div></header><main class="w-full pt-[164px] bg-background min-h-[calc(100vh-164px)]"><div class="flex flex-col w-full">
+<!-- Top Spec Bar & Header -->
+<section class="bg-surface-container-low px-margin py-space-lg">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="max-w-3xl">
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-space-sm py-0.5 rounded font-bold uppercase tracking-wider">SNI 03-6861-2002 Standardized</span>
+<span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-space-sm py-0.5 rounded font-bold uppercase">Algoritma Toleransi Presisi v3.4</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface font-extrabold tracking-tight">Kalkulator Simulasi Kebutuhan Material Bangunan</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          Hindari kehabisan material atau sisa berlebih di lapangan. Hitung estimasi volume material proyek Anda secara presisi dengan faktor toleransi teruji dan estimasi biaya langsung.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm self-start md:self-auto shrink-0 bg-surface-container-lowest p-space-xs rounded-xl shadow-sm">
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded font-label-md text-label-md text-on-surface bg-surface-container-low hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-base text-primary">bookmark_add</span>
+<span>Simpan Template</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-base text-secondary">history</span>
+<span>Riwayat Hitung</span>
+</button>
+</div>
+</div>
+<!-- Active Preset Tabs -->
+<div class="max-w-[1440px] mx-auto mt-space-lg">
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs" id="module-tabs">
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded font-label-lg text-label-lg bg-inverse-surface text-inverse-on-surface shadow-sm whitespace-nowrap">
+<span class="material-symbols-outlined text-lg text-primary-fixed">foundation</span>
+<span>1. Pasangan Dinding &amp; Plesteran</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded font-label-lg text-label-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-lg">grid_view</span>
+<span>2. Lantai Keramik &amp; Granit Tile</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded font-label-lg text-label-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-lg">format_paint</span>
+<span>3. Pengecatan Interior &amp; Eksterior</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded font-label-lg text-label-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-lg">reorder</span>
+<span>4. Pengecoran Beton &amp; Kolom Balok</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Main Calculator Two-Column Engine -->
+<section class="max-w-[1440px] w-full mx-auto px-margin py-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- LEFT: Dynamic Input Panel -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Step 1: Dimensi Bidang -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-on-primary-fixed font-headline-sm text-headline-sm flex items-center justify-center font-bold">1</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Dimensi Bidang Dinding</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tentukan dimensi fisik total bentangan yang akan dipasang</p>
+</div>
+</div>
+<span class="bg-surface-container px-space-sm py-1 rounded font-label-sm text-label-sm text-secondary font-bold">Satuan Standar: Meter</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<!-- Panjang Dinding -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-bold flex items-center justify-between">
+<span>Panjang Dinding</span>
+<span class="text-secondary text-xs">P</span>
+</label>
+<div class="relative flex items-center">
+<input class="w-full h-11 px-space-md pr-12 rounded bg-surface-container-low text-on-surface font-spec-numerical text-spec-numerical focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="input-length" min="0.5" step="0.1" type="number" value="16.0">
+<span class="absolute right-3 font-label-md text-label-md text-secondary font-semibold">m</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary">Contoh: 16 meter</span>
+</div>
+<!-- Tinggi Dinding -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-bold flex items-center justify-between">
+<span>Tinggi Dinding</span>
+<span class="text-secondary text-xs">T</span>
+</label>
+<div class="relative flex items-center">
+<input class="w-full h-11 px-space-md pr-12 rounded bg-surface-container-low text-on-surface font-spec-numerical text-spec-numerical focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="input-height" min="0.5" step="0.1" type="number" value="3.5">
+<span class="absolute right-3 font-label-md text-label-md text-secondary font-semibold">m</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary">Standar plafon: 3.2 - 4.0 m</span>
+</div>
+<!-- Jumlah Sisi Pasangan -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-bold">Jumlah Sisi Dinding</label>
+<div class="grid grid-cols-2 gap-1 h-11 bg-surface-container-low p-1 rounded">
+<button class="bg-surface-container-lowest text-primary font-label-md text-label-md rounded font-bold shadow-sm transition-all" id="side-single" type="button">1 Sisi</button>
+<button class="text-secondary hover:text-on-surface font-label-md text-label-md rounded font-bold transition-all" id="side-double" type="button">2 Sisi (PP)</button>
+</div>
+<span class="font-body-sm text-body-sm text-secondary">Dua sisi untuk partisi bolak-balik</span>
+</div>
+</div>
+</div>
+<!-- Step 2: Pengurangan Bukaan Pintu & Jendela -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-on-primary-fixed font-headline-sm text-headline-sm flex items-center justify-center font-bold">2</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Pengurangan Bukaan (Kusen &amp; Void)</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Area bukaan tidak memerlukan batu bata atau mortar</p>
+</div>
+</div>
+<span class="bg-surface-container-high px-space-sm py-1 rounded font-label-sm text-label-sm text-primary font-bold" id="label-void-area">- 6.40 m² Bukaan</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Pintu Kusen Standar -->
+<div class="p-space-md bg-surface-container-low rounded flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-2xl text-secondary">door_front</span>
+<div>
+<span class="font-label-lg text-label-lg font-bold block text-on-surface">Pintu Standar (0.9 x 2.1 m)</span>
+<span class="font-body-sm text-body-sm text-secondary">Luas: 1.89 m² / unit</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-lowest rounded p-1 shadow-sm">
+<button class="w-8 h-8 rounded bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center justify-center font-bold text-lg" id="btn-door-minus" type="button">-</button>
+<span class="w-8 text-center font-spec-numerical text-spec-numerical font-bold" id="val-doors">2</span>
+<button class="w-8 h-8 rounded bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center justify-center font-bold text-lg" id="btn-door-plus" type="button">+</button>
+</div>
+</div>
+<!-- Jendela Kaca Ganda -->
+<div class="p-space-md bg-surface-container-low rounded flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-2xl text-secondary">window</span>
+<div>
+<span class="font-label-lg text-label-lg font-bold block text-on-surface">Jendela Ganda (1.3 x 1.0 m)</span>
+<span class="font-body-sm text-body-sm text-secondary">Luas: 1.30 m² / unit</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-lowest rounded p-1 shadow-sm">
+<button class="w-8 h-8 rounded bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center justify-center font-bold text-lg" id="btn-win-minus" type="button">-</button>
+<span class="w-8 text-center font-spec-numerical text-spec-numerical font-bold" id="val-windows">2</span>
+<button class="w-8 h-8 rounded bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center justify-center font-bold text-lg" id="btn-win-plus" type="button">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Step 3: Pilihan Tipe Material Pasangan -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-on-primary-fixed font-headline-sm text-headline-sm flex items-center justify-center font-bold">3</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Pilihan Material Dinding &amp; Spesi</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pilih jenis batu dan metode perekat yang direkomendasikan</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md" id="brick-selector">
+<!-- Option A: Bata Ringan Hebel (Active) -->
+<div class="relative p-space-md rounded-lg cursor-pointer bg-primary-fixed/30 ring-2 ring-primary transition-all" id="card-hebel">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded bg-primary-container text-on-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">view_in_ar</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Bata Ringan Hebel AAC</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ukuran 60 x 20 x 10 cm</p>
+</div>
+</div>
+<span class="bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase">Rekomendasi</span>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-secondary font-label-md text-label-md bg-surface-container-lowest/60 p-space-xs rounded">
+<span>Rasio per m²: ~8.3 Pcs</span>
+<span class="text-primary font-bold">Rp 620.000 / m³</span>
+</div>
+</div>
+<!-- Option B: Bata Merah Standar SNI -->
+<div class="relative p-space-md rounded-lg cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all" id="card-redbrick">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high text-on-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">layers</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Bata Merah Standar Oven</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ukuran 22 x 11 x 5 cm</p>
+</div>
+</div>
+<span class="bg-surface-container-high text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase">Klasik</span>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-secondary font-label-md text-label-md bg-surface-container-lowest/60 p-space-xs rounded">
+<span>Rasio per m²: ~70 Pcs</span>
+<span class="text-on-surface font-bold">Rp 850 / pcs</span>
+</div>
+</div>
+</div>
+<!-- Pilihan Jenis Mortar / Spesi -->
+<div class="mt-space-xs flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-bold">Jenis Perekat &amp; Ketebalan Spesi</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<label class="flex items-center gap-space-sm p-space-sm rounded bg-surface-container-low cursor-pointer hover:bg-surface-container">
+<input checked="" class="w-4 h-4 text-primary focus:ring-primary" name="mortar-type" type="radio" value="thinbed">
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Semen Instan Thinbed (Sak 40kg)</span>
+<span class="font-body-sm text-body-sm text-secondary">Ketebalan spesi 3mm presisi</span>
+</div>
+</label>
+<label class="flex items-center gap-space-sm p-space-sm rounded bg-surface-container-low cursor-pointer hover:bg-surface-container">
+<input class="w-4 h-4 text-primary focus:ring-primary" name="mortar-type" type="radio" value="conventional">
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Semen Portland + Pasir Cor</span>
+<span class="font-body-sm text-body-sm text-secondary">Ketebalan spesi 15-20mm konvensional</span>
+</div>
+</label>
+</div>
+</div>
+</div>
+<!-- Step 4: Safety Waste Factor Slider -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-on-primary-fixed font-headline-sm text-headline-sm flex items-center justify-center font-bold">4</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Toleransi Kehilangan &amp; Pemotongan (Wastage)</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Faktor safety untuk sisa potong sudut, retak muatan armada, dan bevel</p>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-primary bg-primary-fixed/40 px-space-md py-0.5 rounded" id="display-wastage-val">10%</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<input class="w-full accent-primary h-2 bg-surface-container-high rounded cursor-pointer" id="input-wastage" max="15" min="3" step="1" type="range" value="10">
+<div class="flex justify-between font-label-sm text-label-sm text-secondary font-semibold">
+<span>Minimal (3-5% proyek rapi)</span>
+<span>Rekomendasi SNI (10%)</span>
+<span>Tinggi (15% bentuk non-linear)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT: Sticky Bill of Materials (BOM) & Quotation Engine -->
+<div class="lg:col-span-5 sticky top-[180px] flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden">
+<!-- Card Top Bar -->
+<div class="bg-inverse-surface text-inverse-on-surface px-space-lg py-space-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-fixed text-2xl">receipt_long</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold leading-tight">Bill of Materials (BOM)</h3>
+<span class="font-label-sm text-label-sm text-tertiary-fixed tracking-wide uppercase">Real-time Calculation</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm opacity-80 block">Luas Efektif</span>
+<span class="font-spec-numerical text-spec-numerical font-extrabold text-tertiary-fixed" id="bom-effective-area">49.60 m²</span>
+</div>
+</div>
+<!-- Formula Inset Summary -->
+<div class="bg-surface-container-low px-space-lg py-space-sm flex items-center justify-between font-label-sm text-label-sm text-secondary">
+<span>Dimensi: <strong class="text-on-surface" id="spec-dim-str">16.0 x 3.5 m</strong></span>
+<span>Bukaan: <strong class="text-on-surface" id="spec-void-str">-6.40 m²</strong></span>
+<span>Wastage: <strong class="text-primary font-bold" id="spec-waste-str">+10%</strong></span>
+</div>
+<!-- Breakdown List -->
+<div class="p-space-lg flex flex-col gap-space-md divide-y-0">
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Rincian Komponen Material Utama</span>
+<!-- Item 1: Bata Ringan -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center justify-between">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-lg">view_in_ar</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block leading-tight" id="bom-item1-name">Bata Ringan Hebel 10cm</span>
+<span class="font-body-sm text-body-sm text-secondary" id="bom-item1-qty">453 Pcs (setara 5.44 m³)</span>
+<span class="bg-tertiary-container/10 text-tertiary font-label-sm text-label-sm px-1.5 py-0.5 rounded font-semibold inline-block mt-1">SNI Standar Presisi</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-lg text-label-lg font-extrabold text-on-surface block" id="bom-item1-cost">Rp 3.372.800</span>
+<span class="font-body-sm text-body-sm text-secondary" id="bom-item1-unitprice">@ Rp 620.000/m³</span>
+</div>
+</div>
+<!-- Item 2: Perekat Thinbed -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center justify-between">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-lg">inventory_2</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block leading-tight" id="bom-item2-name">Mortar Thinbed Perekat (40kg)</span>
+<span class="font-body-sm text-body-sm text-secondary" id="bom-item2-qty">11 Sak (@ 1 sak untuk 4.5m²)</span>
+<span class="text-secondary font-label-sm text-label-sm block mt-1">Daya Sebar Kuat 3mm</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-lg text-label-lg font-extrabold text-on-surface block" id="bom-item2-cost">Rp 935.000</span>
+<span class="font-body-sm text-body-sm text-secondary">@ Rp 85.000/sak</span>
+</div>
+</div>
+<!-- Item 3: Angkur Besi & Pengikat -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center justify-between">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-lg">hardware</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block leading-tight">Besi Plat Angkur &amp; Paku Baja</span>
+<span class="font-body-sm text-body-sm text-secondary" id="bom-item3-qty">18 Set (Per 3 lapis pasangan)</span>
+<span class="text-secondary font-label-sm text-label-sm block mt-1">Penguat Kolom Praktis</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-lg text-label-lg font-extrabold text-on-surface block" id="bom-item3-cost">Rp 450.000</span>
+<span class="font-body-sm text-body-sm text-secondary">@ Rp 25.000/set</span>
+</div>
+</div>
+<!-- Tonnage & Delivery Specs -->
+<div class="bg-surface-container p-space-sm rounded-lg flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-space-xs font-label-md text-label-md font-bold">
+<span class="material-symbols-outlined text-primary text-base">local_shipping</span>
+<span>Estimasi Beban Logistik:</span>
+</div>
+<div class="font-label-md text-label-md text-on-surface">
+<strong id="spec-weight">~4.15 Ton</strong> / Butuh 1 Truk Colt Diesel Engkel
+              </div>
+</div>
+<!-- Financial Summary Box -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-body-md text-body-md text-secondary">
+<span>Subtotal Material</span>
+<span class="font-bold text-on-surface" id="bom-subtotal">Rp 4.757.800</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md text-tertiary">
+<span class="flex items-center gap-1">
+<span>Diskon Bundling Paket Proyek (-5%)</span>
+<span class="material-symbols-outlined text-sm">verified</span>
+</span>
+<span class="font-bold" id="bom-discount">-Rp 237.890</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md text-secondary">
+<span>PPN Resmi Faktur (11%)</span>
+<span class="font-bold text-on-surface" id="bom-tax">Rp 497.190</span>
+</div>
+<div class="h-px bg-outline-variant my-1"></div>
+<div class="flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase font-bold text-secondary block">Total Estimasi Siap Kirim</span>
+<span class="font-body-sm text-body-sm text-tertiary font-bold">Harga sudah termasuk ongkir Jabodetabek</span>
+</div>
+<div class="text-right">
+<span class="font-headline-lg text-headline-lg font-black text-primary leading-tight" id="bom-grandtotal">Rp 5.017.100</span>
+</div>
+</div>
+</div>
+<!-- Primary CTAs -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm py-3 rounded-lg shadow-sm font-bold flex items-center justify-center gap-space-sm transition-transform active:scale-[0.99]" id="btn-add-cart">
+<span class="material-symbols-outlined text-xl">shopping_cart_checkout</span>
+<span>Masukkan Semua Item ke Keranjang</span>
+</button>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="flex items-center justify-center gap-space-xs py-2.5 rounded font-label-md text-label-md font-bold bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors">
+<span class="material-symbols-outlined text-base">picture_as_pdf</span>
+<span>Unduh Rekap PDF</span>
+</button>
+<button class="flex items-center justify-center gap-space-xs py-2.5 rounded font-label-md text-label-md font-bold bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors">
+<span class="material-symbols-outlined text-base text-tertiary">chat</span>
+<span>Review via WhatsApp</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Trust & Guarantee Micro-Banner -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-tertiary-container text-on-tertiary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-xl">format_image_left</span>
+</div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Jaminan Kuantitas &amp; Pengembalian Sisa</span>
+<p class="font-body-sm text-body-sm text-secondary">Jika terjadi kelebihan sak mortar belum terbuka segel pabrik, garansi buy-back 100% berlaku dalam 14 hari.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Secondary Preset Quick Calculators -->
+<section class="bg-surface-container-low px-margin py-space-xl">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Simulasi Pekerjaan Lainnya</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">Pilih Modul Spesifik Sesuai Tahap Konstruksi Anda</h2>
+</div>
+<a class="font-label-md text-label-md font-bold text-primary flex items-center gap-1 hover:underline" href="#">
+<span>Lihat Semua 12 Alat Simulasi Bangunan</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Preset Card 1: Granit Tile -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">texture</span>
+</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded font-bold">Modul Lantai</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Kalkulator Granit Tile 60x60</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Otomatis menghitung jumlah dus, semen instan perekat granit (tile adhesive), serta nat anti-jamur dengan faktor sudut potongan diagonal.
+            </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-low -mx-space-lg -mb-space-lg p-space-md rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-secondary">Rekomendasi Wastage: 10%</span>
+<button class="bg-inverse-surface hover:bg-on-surface text-inverse-on-surface font-label-md text-label-md px-space-md py-1.5 rounded font-bold transition-colors">
+              Buka Modul
+            </button>
+</div>
+</div>
+<!-- Preset Card 2: Atap Baja Ringan -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">roofing</span>
+</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded font-bold">Modul Atap</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Kalkulator Rangka Baja &amp; Spandek</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Simulasi jumlah kanal C-75, reng asimetris, sekrup roofing hexagonal, dan luas efektif lembar atap spandek pasir terhadap sudut kemiringan (derajat).
+            </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-low -mx-space-lg -mb-space-lg p-space-md rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-secondary">Standar Profil: C75.75 SNI</span>
+<button class="bg-inverse-surface hover:bg-on-surface text-inverse-on-surface font-label-md text-label-md px-space-md py-1.5 rounded font-bold transition-colors">
+              Buka Modul
+            </button>
+</div>
+</div>
+<!-- Preset Card 3: Pengecatan Dinding -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">format_paint</span>
+</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded font-bold">Modul Finishing</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Kalkulator Cat Tembok 3 Lapis</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Rasio tepat untuk 1 lapis Alkali Sealer Primer + 2 lapis cat finishing exterior/interior galon 2.5L dan pail 20L dengan daya sebar 12m²/liter.
+            </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-low -mx-space-lg -mb-space-lg p-space-md rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-secondary">Daya Sebar Rata: 12 m²/kg</span>
+<button class="bg-inverse-surface hover:bg-on-surface text-inverse-on-surface font-label-md text-label-md px-space-md py-1.5 rounded font-bold transition-colors">
+              Buka Modul
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Panduan Teknis SNI & Rasio Campuran Proyek -->
+<section class="max-w-[1440px] w-full mx-auto px-margin py-space-xl">
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm font-bold text-tertiary uppercase tracking-wider">Referensi Standar Pekerjaan Lapangan</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">Panduan Standar SNI Plesteran &amp; Pasangan Dinding</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary">verified_user</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">Sesuai Peraturan Menteri PUPR No. 28/PRT/M/2016</span>
+</div>
+</div>
+<!-- 3 Technical Guide Columns -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Guide 1 -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-xl">water_drop</span>
+<span>Rasio Trasraam Kedap Air (1:2 - 1:3)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Untuk dinding kamar mandi dan dinding luar minimal setinggi 30–50 cm dari atas sloof sloof beton, wajib memakai rasio adukan 1 semen : 3 pasir cor halus guna mencegah naiknya air kapiler tanah (dinding lembab dan jamur).
+          </p>
+<div class="mt-auto pt-space-xs text-secondary font-label-sm text-label-sm font-semibold">
+            Toleransi Ketebalan: 15 mm s/d 20 mm
+          </div>
+</div>
+<!-- Guide 2 -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-xl">straighten</span>
+<span>Ketebalan Spesi Thinbed Presisi (3 mm)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Pemasangan Bata Ringan AAC tidak memerlukan spesi tebal. Gunakan roskam bergerigi 6 mm untuk menarik adukan mortar tipis merata 3 mm. Penggunaan adukan semen pasir biasa pada hebel akan mereduksi kuat lekat struktural hingga 40%.
+          </p>
+<div class="mt-auto pt-space-xs text-secondary font-label-sm text-label-sm font-semibold">
+            Standar Mortar: Kategori M4 DIN 18555
+          </div>
+</div>
+<!-- Guide 3 -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-xl">construction</span>
+<span>Jarak Kolom Praktis &amp; Angkur Dinding</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Dinding bata maksimal memiliki bentangan luas 12 m² tanpa perkuatan. Pasang kolom praktis (11x11cm atau 15x15cm) setiap interval bentang 3 s/d 3.5 meter, serta besi angkur diameter 8mm per 3 susunan blok bata yang tertanam di kolom.
+          </p>
+<div class="mt-auto pt-space-xs text-secondary font-label-sm text-label-sm font-semibold">
+            Ketahanan Gempa: SNI 1726:2019
+          </div>
+</div>
+</div>
+<!-- Technical Help Desk Banner -->
+<div class="p-space-lg bg-surface-container rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-2xl">engineering</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">Punya Gambar Arsitektur atau Format RAB Kompleks?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tim Estimator &amp; Quantity Surveyor KaryaMaterial siap mengonversi gambar kerja CAD/PDF proyek Anda menjadi Bill of Quantities (BQ) siap tender secara cuma-cuma.</p>
+</div>
+</div>
+<button class="bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg px-space-lg py-3 rounded-lg font-bold shrink-0 shadow-sm transition-colors whitespace-nowrap">
+          Upload Gambar &amp; Konsultasi B2B
+        </button>
+</div>
+</div>
+</section>
+</div>
+<!-- Interactive Engine Logic Script -->
+<script>
+  (function() {
+    const inputLength = document.getElementById('input-length');
+    const inputHeight = document.getElementById('input-height');
+    const inputWastage = document.getElementById('input-wastage');
+    const displayWastageVal = document.getElementById('display-wastage-val');
+    const labelVoidArea = document.getElementById('label-void-area');
+    
+    const valDoors = document.getElementById('val-doors');
+    const btnDoorMinus = document.getElementById('btn-door-minus');
+    const btnDoorPlus = document.getElementById('btn-door-plus');
+    
+    const valWindows = document.getElementById('val-windows');
+    const btnWinMinus = document.getElementById('btn-win-minus');
+    const btnWinPlus = document.getElementById('btn-win-plus');
+
+    const cardHebel = document.getElementById('card-hebel');
+    const cardRedbrick = document.getElementById('card-redbrick');
+
+    const sideSingle = document.getElementById('side-single');
+    const sideDouble = document.getElementById('side-double');
+
+    // Right side BOM DOM elements
+    const bomEffectiveArea = document.getElementById('bom-effective-area');
+    const specDimStr = document.getElementById('spec-dim-str');
+    const specVoidStr = document.getElementById('spec-void-str');
+    const specWasteStr = document.getElementById('spec-waste-str');
+    
+    const bomItem1Name = document.getElementById('bom-item1-name');
+    const bomItem1Qty = document.getElementById('bom-item1-qty');
+    const bomItem1Cost = document.getElementById('bom-item1-cost');
+    const bomItem1UnitPrice = document.getElementById('bom-item1-unitprice');
+
+    const bomItem2Name = document.getElementById('bom-item2-name');
+    const bomItem2Qty = document.getElementById('bom-item2-qty');
+    const bomItem2Cost = document.getElementById('bom-item2-cost');
+
+    const bomItem3Qty = document.getElementById('bom-item3-qty');
+    const bomItem3Cost = document.getElementById('bom-item3-cost');
+
+    const specWeight = document.getElementById('spec-weight');
+    const bomSubtotal = document.getElementById('bom-subtotal');
+    const bomDiscount = document.getElementById('bom-discount');
+    const bomTax = document.getElementById('bom-tax');
+    const bomGrandTotal = document.getElementById('bom-grandtotal');
+
+    let doors = 2;
+    let windows = 2;
+    let sidesMultiplier = 1;
+    let selectedMaterial = 'hebel'; // 'hebel' or 'redbrick'
+
+    function formatRupiah(number) {
+      return 'Rp ' + Math.round(number).toLocaleString('id-ID');
+    }
+
+    function calculate() {
+      const length = parseFloat(inputLength.value) || 0;
+      const height = parseFloat(inputHeight.value) || 0;
+      const wastagePercent = parseInt(inputWastage.value, 10) || 10;
+      displayWastageVal.textContent = wastagePercent + '%';
+
+      // Bukaan
+      const doorArea = doors * 1.89; // 0.9 x 2.1
+      const windowArea = windows * 1.30; // 1.3 x 1.0
+      const totalVoid = doorArea + windowArea;
+
+      labelVoidArea.textContent = '- ' + totalVoid.toFixed(2) + ' m² Bukaan';
+      specVoidStr.textContent = '-' + totalVoid.toFixed(2) + ' m²';
+
+      const grossArea = length * height * sidesMultiplier;
+      let effectiveArea = grossArea - totalVoid;
+      if (effectiveArea < 0) effectiveArea = 0;
+
+      bomEffectiveArea.textContent = effectiveArea.toFixed(2) + ' m²';
+      specDimStr.textContent = length.toFixed(1) + ' x ' + height.toFixed(1) + ' m' + (sidesMultiplier > 1 ? ' (2 sisi)' : '');
+      specWasteStr.textContent = '+' + wastagePercent + '%';
+
+      // Perhitungan kebutuhan dengan wastage factor
+      const wastageMultiplier = 1 + (wastagePercent / 100);
+
+      let item1Cost = 0;
+      let item2Cost = 0;
+      let item3Cost = 0;
+      let totalTonnage = 0;
+
+      if (selectedMaterial === 'hebel') {
+        // Bata Hebel 60x20x10 -> 8.33 pcs/m² -> 1 m³ = ~83 pcs (~10 m² dinding)
+        const totalPcs = Math.ceil(effectiveArea * 8.33 * wastageMultiplier);
+        const totalM3 = (totalPcs / 83.3).toFixed(2);
+        const pricePerM3 = 620000;
+        item1Cost = totalM3 * pricePerM3;
+
+        bomItem1Name.textContent = 'Bata Ringan Hebel AAC (10cm)';
+        bomItem1Qty.textContent = totalPcs + ' Pcs (setara ' + totalM3 + ' m³)';
+        bomItem1UnitPrice.textContent = '@ Rp 620.000 / m³';
+        bomItem1Cost.textContent = formatRupiah(item1Cost);
+
+        // Thinbed: 1 sak 40kg untuk ± 4.5 m²
+        const totalSaksThinbed = Math.ceil((effectiveArea / 4.5) * wastageMultiplier);
+        const pricePerSakThinbed = 85000;
+        item2Cost = totalSaksThinbed * pricePerSakThinbed;
+
+        bomItem2Name.textContent = 'Mortar Thinbed Perekat (40kg)';
+        bomItem2Qty.textContent = totalSaksThinbed + ' Sak (@ 40kg)';
+        bomItem2Cost.textContent = formatRupiah(item2Cost);
+
+        // Angkur: setiap 3 lapis per pertemuan kolom
+        const angkurQty = Math.max(4, Math.ceil((height / 0.6) * Math.ceil(length / 3) * 2));
+        item3Cost = angkurQty * 25000;
+        bomItem3Qty.textContent = angkurQty + ' Set (Plat Angkur + Dynabolt)';
+        bomItem3Cost.textContent = formatRupiah(item3Cost);
+
+        // Bobot: Hebel ~600kg/m³ + Mortar
+        totalTonnage = ((totalM3 * 650) + (totalSaksThinbed * 40)) / 1000;
+      } else {
+        // Bata Merah SNI -> 70 pcs/m²
+        const totalRedBricks = Math.ceil(effectiveArea * 70 * wastageMultiplier);
+        const pricePerBrick = 850;
+        item1Cost = totalRedBricks * pricePerBrick;
+
+        bomItem1Name.textContent = 'Bata Merah Oven Standar SNI';
+        bomItem1Qty.textContent = totalRedBricks.toLocaleString('id-ID') + ' Pcs';
+        bomItem1UnitPrice.textContent = '@ Rp 850 / pcs';
+        bomItem1Cost.textContent = formatRupiah(item1Cost);
+
+        // Semen Konvensional: 1 sak semen per ~3 m² dinding bata merah + pasir
+        const totalCementSaks = Math.ceil((effectiveArea / 3.0) * wastageMultiplier);
+        const priceCement = 65000;
+        item2Cost = totalCementSaks * priceCement;
+
+        bomItem2Name.textContent = 'Semen Portland Komposit (Sak 50kg)';
+        bomItem2Qty.textContent = totalCementSaks + ' Sak (@ 50kg)';
+        bomItem2Cost.textContent = formatRupiah(item2Cost);
+
+        const sandM3 = (effectiveArea * 0.04 * wastageMultiplier).toFixed(1);
+        item3Cost = sandM3 * 280000;
+        bomItem3Qty.textContent = sandM3 + ' m³ Pasir Pasang Ayak';
+        bomItem3Cost.textContent = formatRupiah(item3Cost);
+
+        // Bobot Bata merah jauh lebih berat (~1600kg/m³)
+        totalTonnage = ((totalRedBricks * 1.8) + (totalCementSaks * 50) + (sandM3 * 1400)) / 1000;
+      }
+
+      specWeight.textContent = '~' + totalTonnage.toFixed(2) + ' Ton';
+
+      // Totals
+      const subtotal = item1Cost + item2Cost + item3Cost;
+      const discount = subtotal * 0.05; // 5% discount
+      const taxable = subtotal - discount;
+      const tax = taxable * 0.11; // 11% PPN
+      const grandTotal = taxable + tax;
+
+      bomSubtotal.textContent = formatRupiah(subtotal);
+      bomDiscount.textContent = '-' + formatRupiah(discount);
+      bomTax.textContent = formatRupiah(tax);
+      bomGrandTotal.textContent = formatRupiah(grandTotal);
+    }
+
+    // Door Counter
+    btnDoorMinus.addEventListener('click', function() {
+      if (doors > 0) { doors--; valDoors.textContent = doors; calculate(); }
+    });
+    btnDoorPlus.addEventListener('click', function() {
+      doors++; valDoors.textContent = doors; calculate();
+    });
+
+    // Window Counter
+    btnWinMinus.addEventListener('click', function() {
+      if (windows > 0) { windows--; valWindows.textContent = windows; calculate(); }
+    });
+    btnWinPlus.addEventListener('click', function() {
+      windows++; valWindows.textContent = windows; calculate();
+    });
+
+    // Material Selection
+    cardHebel.addEventListener('click', function() {
+      selectedMaterial = 'hebel';
+      cardHebel.className = "relative p-space-md rounded-lg cursor-pointer bg-primary-fixed/30 ring-2 ring-primary transition-all";
+      cardRedbrick.className = "relative p-space-md rounded-lg cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all";
+      calculate();
+    });
+
+    cardRedbrick.addEventListener('click', function() {
+      selectedMaterial = 'redbrick';
+      cardRedbrick.className = "relative p-space-md rounded-lg cursor-pointer bg-primary-fixed/30 ring-2 ring-primary transition-all";
+      cardHebel.className = "relative p-space-md rounded-lg cursor-pointer bg-surface-container-low hover:bg-surface-container transition-all";
+      calculate();
+    });
+
+    // Sisi Toggle
+    sideSingle.addEventListener('click', function() {
+      sidesMultiplier = 1;
+      sideSingle.className = "bg-surface-container-lowest text-primary font-label-md text-label-md rounded font-bold shadow-sm transition-all";
+      sideDouble.className = "text-secondary hover:text-on-surface font-label-md text-label-md rounded font-bold transition-all";
+      calculate();
+    });
+
+    sideDouble.addEventListener('click', function() {
+      sidesMultiplier = 2;
+      sideDouble.className = "bg-surface-container-lowest text-primary font-label-md text-label-md rounded font-bold shadow-sm transition-all";
+      sideSingle.className = "text-secondary hover:text-on-surface font-label-md text-label-md rounded font-bold transition-all";
+      calculate();
+    });
+
+    // Inputs listener
+    inputLength.addEventListener('input', calculate);
+    inputHeight.addEventListener('input', calculate);
+    inputWastage.addEventListener('input', calculate);
+
+    // Initial run
+    calculate();
+
+    // CTA Add to cart alert effect
+    const btnAddCart = document.getElementById('btn-add-cart');
+    btnAddCart.addEventListener('click', function() {
+      const originalText = btnAddCart.innerHTML;
+      btnAddCart.innerHTML = '<span class="material-symbols-outlined text-xl">check_circle</span><span>Item Ditambahkan ke Proyek!</span>';
+      btnAddCart.classList.add('bg-tertiary-container');
+      setTimeout(() => {
+        btnAddCart.innerHTML = originalText;
+        btnAddCart.classList.remove('bg-tertiary-container');
+      }, 2400);
+    });
+
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface"><div class="max-w-[1440px] mx-auto px-margin py-space-xl grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-3 h-3 bg-primary rounded-sm"></div><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">KaryaMaterial</span></div><p class="font-body-md text-body-md text-on-surface-variant">Platform pengadaan dan suplai material konstruksi terpercaya di Indonesia. Menyediakan jaminan kepastian pasokan, kepatuhan mutu SNI/ISO, serta logistik terintegrasi untuk skala proyek mandiri hingga institusional.</p><div class="flex flex-wrap gap-space-xs"><span class="bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-space-sm py-1 rounded font-bold uppercase tracking-wider">SNI Certified</span><span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-space-sm py-1 rounded font-bold uppercase tracking-wider">ISO 9001:2015</span><span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-space-sm py-1 rounded font-bold uppercase tracking-wider">LPJK Terdaftar</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Kategori Populer</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Semen &amp; Mortar Struktural</li><li class="hover:text-primary transition-colors cursor-pointer">Besi Beton Ulir &amp; Polos (SNI)</li><li class="hover:text-primary transition-colors cursor-pointer">Keramik Lantai &amp; Granit Dinding</li><li class="hover:text-primary transition-colors cursor-pointer">Genteng Metal &amp; Spandek Pasir</li><li class="hover:text-primary transition-colors cursor-pointer">Cat Eksterior &amp; Pelapis Anti Bocor</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Layanan Khusus</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Simulasi Material Online</li><li class="hover:text-primary transition-colors cursor-pointer">Pengadaan Proyek B2B Enterprise</li><li class="hover:text-primary transition-colors cursor-pointer">Layanan Sewa Truk Tronton &amp; Crane</li><li class="hover:text-primary transition-colors cursor-pointer">Request Penawaran Tender (RFQ)</li><li class="hover:text-primary transition-colors cursor-pointer">Fasilitas Invoice Tempo Kontraktor</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Hubungi Kami &amp; Pusat</span><div class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><div><span class="font-bold text-on-surface block">Kantor Operasional &amp; Hub Logistik:</span><span>Kawasan Industri MM2100, Cikarang Barat, Bekasi &amp; Pulogadung, Jakarta Timur</span></div><div><span class="font-bold text-on-surface block">Kontak Proyek &amp; WhatsApp 24/7:</span><span>+62 812-8899-5279 / (021) 899-2345</span></div><div><span class="font-bold text-on-surface block">Jam Operasional Armada:</span><span>Senin - Sabtu: 06:00 - 22:00 WIB</span></div></div></div></div><div class="bg-surface-container"><div class="max-w-[1440px] mx-auto px-margin py-space-md flex flex-col md:flex-row items-center justify-between gap-space-md text-secondary font-label-sm text-label-sm"><span>© 2025 PT Karya Material Perkasa Tbk. Seluruh hak cipta dilindungi.</span><div class="flex flex-wrap items-center gap-space-md"><span class="font-bold uppercase text-on-surface">Metode Pembayaran Resmi:</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">BCA VA</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">MANDIRI</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">BRI</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">BNI</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-primary font-bold">TEMPO B2B</span></div></div></div></footer></body></html>

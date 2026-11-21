@@ -1,0 +1,838 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-variant": "#d3e4fe", "on-surface": "#0b1c30", "on-primary-fixed-variant": "#7f2b00", "tertiary-fixed": "#6ffbbe", "on-tertiary-container": "#f5fff6", "on-secondary-fixed": "#131b2e", "background": "#f8f9ff", "inverse-on-surface": "#eaf1ff", "surface-dim": "#cbdbf5", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-container-high": "#dce9ff", "tertiary-fixed-dim": "#4edea3", "tertiary-container": "#00855b", "secondary": "#565e74", "on-background": "#0b1c30", "on-tertiary-fixed-variant": "#005236", "inverse-surface": "#213145", "primary-container": "#cc4900", "primary": "#a33900", "on-surface-variant": "#5a4138", "outline-variant": "#e2bfb2", "primary-fixed": "#ffdbce", "on-secondary": "#ffffff", "surface-container-low": "#eff4ff", "on-primary-container": "#fffbff", "on-error-container": "#93000a", "on-secondary-fixed-variant": "#3f465c", "on-error": "#ffffff", "surface-tint": "#a73a00", "primary-fixed-dim": "#ffb599", "on-primary-fixed": "#370e00", "surface": "#f8f9ff", "secondary-container": "#dae2fd", "on-secondary-container": "#5c647a", "tertiary": "#006947", "error-container": "#ffdad6", "outline": "#8e7166", "secondary-fixed": "#dae2fd", "on-tertiary-fixed": "#002113", "secondary-fixed-dim": "#bec6e0", "on-primary": "#ffffff", "surface-container-highest": "#d3e4fe", "error": "#ba1a1a", "inverse-primary": "#ffb599", "surface-container": "#e5eeff", "surface-bright": "#f8f9ff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.25rem", "gutter-mobile": "0.75rem", "space-sm": "0.5rem", "gutter": "1.5rem", "margin-mobile": "1rem", "space-xl": "2.5rem", "space-md": "1rem", "space-lg": "1.5rem", "margin": "2rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "spec-numerical": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "spec-numerical": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(11,28,48,0.06)]"><div class="bg-inverse-surface text-inverse-on-surface font-label-sm text-label-sm"><div class="max-w-[1440px] mx-auto px-margin flex items-center justify-between h-9"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm text-tertiary-fixed">call</span><span>Hotline Proyek: 0812-8899-KARYA</span></span><span class="hidden lg:flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm text-tertiary-fixed">local_shipping</span><span>Pengiriman Armada Jabodetabek &amp; Jawa Barat</span></span><span class="hidden xl:flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm text-tertiary-fixed">verified</span><span>Jaminan Mutu SNI 100%</span></span></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs text-inverse-on-surface hover:text-tertiary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-sm">download</span><span>Daftar Harga Terbaru PDF</span></a><span class="text-outline">|</span><span class="text-tertiary-fixed font-bold tracking-wider">STATUS: GUDANG SIAP KIRIM</span></div></div></div><div class="h-20 bg-surface-container-lowest"><div class="max-w-[1440px] mx-auto px-margin h-full flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="KaryaMaterial Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X2A7otznzmXBL119wNv3VjfIfCQQ_HB7p0_SdvKhX7Ow-SkLQ4lbA0QTkYI8i1x-GKkjP0J3_Z0TUjjgkkzo42sDgJwgTJF1_zW0GPw8O1ZqCo6DVQWUdXPgnRkcbMH5jLNgVFmVh8aA49YQ0DAEc4Nfjw56YK05Lt9rk-WMzkb0rAzCmX7xTjKPix7uEadgykOp7r5FRl734uLon9qSVa4PyvZtINUxiMgHPY-oSTvdtjykkbRJLC8G8"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">KaryaMaterial</span><span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-bold">Distributor Konstruksi</span></div></div><div class="flex-1 max-w-2xl hidden md:flex items-center bg-surface-container-low rounded-lg p-space-xs"><div class="flex items-center px-space-sm text-on-surface font-label-md text-label-md"><span class="whitespace-nowrap">Semua Kategori</span><span class="material-symbols-outlined text-base text-secondary ml-space-xs">expand_more</span></div><div class="w-px h-6 bg-outline-variant mx-space-xs"></div><div class="flex-1 flex items-center px-space-xs"><span class="material-symbols-outlined text-secondary mr-space-xs text-lg">search</span><input class="w-full bg-transparent border-none text-on-surface placeholder:text-secondary focus:outline-none font-body-sm text-body-sm" placeholder="Cari semen gresik, pasir cor, besi ulir 10mm, cat exterior..." type="text"></div><button class="bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md px-space-md py-space-sm rounded transition-colors whitespace-nowrap">Cari Material</button></div><div class="flex items-center gap-space-md shrink-0"><button class="hidden sm:flex items-center gap-space-xs bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md px-space-md py-space-sm rounded transition-colors"><span class="material-symbols-outlined text-primary text-base">support_agent</span><span>Konsultasi Teknis</span></button><div class="relative flex items-center justify-center w-10 h-10 rounded bg-surface-container-low text-on-surface hover:bg-surface-container cursor-pointer transition-colors"><span class="material-symbols-outlined text-xl">shopping_cart</span><span class="absolute -top-1 -right-1 bg-primary text-on-primary font-label-sm text-label-sm w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span></div><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuavDorgEKnmOwQ5WkwlJw_4pMCQHnk7S27djnhfngn_ycTgedeUf_4IW6ZnQWZyqqQuTIw-w4lW3Cig65nPxdgdevKJgpSLaK-5UmLRPFpJ9RlMjBeSJeFF8xCO7V_6Ub-hOakXMb2lMq53EEWC4wLSwf2NMXcv-X-eL4UEjnHY3_P97r6WxzKI2MMj_NMaI7mRv9Kyhe7GDubEQiJC1hidkkcKLSUnGhRgk2qhlzoN53xu6PBKHZ"><div class="hidden xl:flex flex-col text-left"><span class="font-label-md text-label-md font-bold text-on-surface leading-tight">PT Adhi Karya Mandiri</span><span class="font-label-sm text-label-sm text-tertiary font-bold leading-tight">B2B Tier Gold</span></div></div></div></div></div><div class="bg-surface-container-low"><div class="max-w-[1440px] mx-auto px-margin flex items-center justify-between h-11"><nav class="flex items-center gap-space-sm overflow-x-auto" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a aria-current="page" class="px-space-md py-1.5 rounded transition-colors whitespace-nowrap bg-primary-container text-on-primary-container font-bold" data-path="beranda" href="#">Beranda</a><div class="flex items-center gap-space-xs"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="kalkulator-simulasi" href="#">Kalkulator Simulasi</a><span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Fitur Unggulan</span></div><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="belanja-material" href="#">Belanja Material</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="layanan-kontraktor-dan-b2b" href="#">Layanan Kontraktor &amp; B2B</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-md py-1.5 rounded transition-colors whitespace-nowrap" data-path="tentang-kami-dan-sertifikasi-sni" href="#">Tentang Kami &amp; Sertifikasi SNI</a></nav><div class="hidden md:flex items-center gap-space-xs font-label-sm text-label-sm text-secondary"><span class="material-symbols-outlined text-sm text-tertiary">shield</span><span>Transaksi Resmi PPN 11% Faktur Pajak</span></div></div></div></header><main class="w-full pt-[164px] bg-background min-h-[calc(100vh-164px)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-low pt-space-xl pb-24">
+<!-- Subtle architectural blueprint background lines -->
+<div class="absolute inset-0 pointer-events-none opacity-40 [background-image:linear-gradient(to_right,#bec6e0_1px,transparent_1px),linear-gradient(to_bottom,#bec6e0_1px,transparent_1px)] [background-size:48px_48px]"></div>
+<div class="relative max-w-[1440px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Text & Value Prop -->
+<div class="lg:col-span-7 flex flex-col gap-space-md z-10">
+<div class="inline-flex items-center gap-space-xs bg-primary-fixed text-on-primary-fixed px-space-md py-1.5 rounded-full w-fit">
+<span class="material-symbols-outlined text-sm font-bold text-primary">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-extrabold">Supplier Resmi Tangan Pertama • Standar SNI &amp; ISO</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight font-extrabold">
+            Pengadaan Bahan Bangunan Terlengkap, Tepat Waktu, <span class="text-primary">Langsung ke Lokasi Proyek.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Dapatkan kepastian harga pabrik untuk semen, besi beton, baja ringan, keramik, hingga finishing cat dengan garansi armada logistik terjadwal dan kemudahan fasilitas invoice tempo kontraktor.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-xs bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg px-space-lg py-3 rounded-lg shadow-md transition-all duration-200 hover:shadow-lg" href="#kalkulator-cepat">
+<span class="material-symbols-outlined text-xl">calculate</span>
+<span>Mulai Simulasi Kebutuhan</span>
+</a>
+<button class="inline-flex items-center gap-space-xs bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-lg text-label-lg px-space-lg py-3 rounded-lg shadow-sm transition-all duration-200">
+<span class="material-symbols-outlined text-xl text-primary">download</span>
+<span>Unduh Katalog Harga 2025 (PDF)</span>
+</button>
+</div>
+<!-- Trust Badges Bar -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md pt-space-md">
+<div class="flex flex-col bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">500+</span>
+<span class="font-body-sm text-body-sm text-secondary">Kontraktor Rekanan</span>
+</div>
+<div class="flex flex-col bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">12.000+</span>
+<span class="font-body-sm text-body-sm text-secondary">Ton Material Terkirim</span>
+</div>
+<div class="flex flex-col bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary">100%</span>
+<span class="font-body-sm text-body-sm text-secondary">Produk SNI Terverifikasi</span>
+</div>
+<div class="flex flex-col bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">24 Jam</span>
+<span class="font-body-sm text-body-sm text-secondary">Siap Kirim Jabodetabek</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual / Real Warehouse Showcase -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-xl overflow-hidden shadow-xl bg-surface-container-lowest">
+<div class="relative h-96 w-full">
+<img class="w-full h-full object-cover" data-alt="Massive organized industrial warehouse interior loaded with stacked pallets of certified cement bags, neatly arranged structural steel rebar bundles, and yellow overhead gantry crane in pristine modern lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVmICVUxuHfr4iVXXnlEp4f41ZIcS_jRf_fN36eN66VTkeLNdB-WSkB_Cu6O9nReIDbfwgXO-wZMkhBc7oiMfbHDxQhooTrdVKalkbLkvz2niu3lxkLj2FOXjdogOnao992K0Ksr78ou0EZFAYSL6aKDFKruDPO51TcXNc-DcAx-0rW8wfcjqgMVyCDM8lYbB9as4rfAp052RLwpJj8ovDI1wz4-K2lSzifUfRfs3oSrQsUogoekC6">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/20 to-transparent"></div>
+<!-- Floating Live Dispatch Card -->
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/95 backdrop-blur-md p-space-md rounded-lg shadow-lg flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded bg-tertiary-container flex items-center justify-center text-on-tertiary-container">
+<span class="material-symbols-outlined text-2xl">local_shipping</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase font-bold text-tertiary block">Armada Sedang Bergerak</span>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Tronton Cikarang → Grand Wisata</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-secondary block">Muatan Besi Beton</span>
+<span class="font-label-md text-label-md font-bold text-primary">18.4 Ton</span>
+</div>
+</div>
+</div>
+<!-- Certs sub-strip -->
+<div class="bg-surface-container px-space-md py-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-secondary">UJI LAB SNI: 2052:2017</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-tertiary">check_circle</span> Timbangan Digital Kalibrasi
+                </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK ESTIMATOR / MINI CALCULATOR WIDGET -->
+<section class="relative max-w-[1440px] mx-auto px-margin -mt-12 z-20 w-full mb-space-xl" id="kalkulator-cepat">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl p-space-lg">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md pb-space-md">
+<div>
+<div class="flex items-center gap-space-xs text-primary font-bold">
+<span class="material-symbols-outlined text-xl">analytics</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Kalkulator Simulasi Instan</span>
+</div>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Hitung Kebutuhan Bahan Konstruksi Dalam 10 Detik</h2>
+</div>
+<p class="font-body-sm text-body-sm text-secondary max-w-md">
+          Hindari kelebihan atau kekurangan material di lokasi. Formula kami mengacu pada standar SNI Analisis Harga Satuan Pekerjaan (AHSP).
+        </p>
+</div>
+<!-- Segmented Calculator Types -->
+<div class="flex flex-wrap gap-space-xs pb-space-md">
+<button class="calc-tab px-space-md py-space-sm rounded font-label-md text-label-md font-bold bg-primary text-on-primary transition-colors flex items-center gap-1.5" id="btn-tab-dinding" onclick="switchEstimator('dinding')">
+<span class="material-symbols-outlined text-base">square_foot</span> Dinding Bata Merah
+        </button>
+<button class="calc-tab px-space-md py-space-sm rounded font-label-md text-label-md font-semibold bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors flex items-center gap-1.5" id="btn-tab-lantai" onclick="switchEstimator('lantai')">
+<span class="material-symbols-outlined text-base">grid_view</span> Keramik / Granit Lantai
+        </button>
+<button class="calc-tab px-space-md py-space-sm rounded font-label-md text-label-md font-semibold bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors flex items-center gap-1.5" id="btn-tab-cat" onclick="switchEstimator('cat')">
+<span class="material-symbols-outlined text-base">format_paint</span> Pengecatan Tembok
+        </button>
+</div>
+<!-- Estimator Body -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container-low p-space-lg rounded-lg">
+<!-- Input Fields -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface flex justify-between">
+<span>Panjang Bidang / Ruang</span>
+<span class="text-primary font-bold" id="label-panjang-val">10 Meter</span>
+</label>
+<div class="relative flex items-center">
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="input-panjang" max="50" min="1" oninput="calculateEstimator()" type="range" value="10">
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-secondary">
+<span>1 m</span>
+<span>25 m</span>
+<span>50 m</span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface flex justify-between">
+<span id="label-lebar-name">Tinggi Dinding</span>
+<span class="text-primary font-bold" id="label-lebar-val">3.5 Meter</span>
+</label>
+<div class="relative flex items-center">
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="input-lebar" max="15" min="1" oninput="calculateEstimator()" step="0.5" type="range" value="3.5">
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-secondary">
+<span>1 m</span>
+<span>8 m</span>
+<span>15 m</span>
+</div>
+</div>
+<div class="sm:col-span-2 flex items-center justify-between pt-space-xs font-body-sm text-body-sm text-secondary">
+<span class="flex items-center gap-1 text-tertiary font-bold">
+<span class="material-symbols-outlined text-sm">tune</span> Toleransi Waste / Susut Material: 5% Otomatis Dihitung
+            </span>
+<span class="text-on-surface font-semibold">Total Luas: <span class="text-primary font-bold" id="val-luas">35</span> m²</span>
+</div>
+</div>
+<!-- Instant Calculation Result Summary -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase font-bold text-secondary">Estimasi Kebutuhan Anda</span>
+<span class="bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-2 py-0.5 rounded font-bold">AHSP Standar SNI</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-body-sm text-body-sm text-secondary block" id="res-item1-label">Bata Merah Standar</span>
+<span class="font-spec-numerical text-spec-numerical text-on-surface font-extrabold" id="res-item1-val">2.572 Pcs</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-body-sm text-body-sm text-secondary block" id="res-item2-label">Semen Portland (50kg)</span>
+<span class="font-spec-numerical text-spec-numerical text-on-surface font-extrabold" id="res-item2-val">12 Sak</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div>
+<span class="font-label-sm text-label-sm text-secondary block">Estimasi Biaya Material</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary" id="res-total-cost">Rp 3.820.000*</span>
+</div>
+<a class="bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold px-space-md py-2.5 rounded transition-colors inline-flex items-center gap-1" href="#">
+<span>Buka Rincian &amp; Order</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- KATEGORI BAHAN BANGUNAN UNGGULAN -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-lg w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-extrabold text-primary">Katalog Konstruksi Terpadu</span>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface">Kategori Bahan Bangunan Unggulan</h2>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary hover:underline" href="#">
+        Lihat Semua 24+ Kategori Proyek
+        <span class="material-symbols-outlined text-base">east</span>
+</a>
+</div>
+<!-- Category Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Besi & Baja -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">iron</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-secondary px-2.5 py-1 rounded font-bold">Mulai Rp 68.000 /btg</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs group-hover:text-primary transition-colors">Besi &amp; Baja Struktural</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-space-md">Besi beton polos &amp; ulir SNI sertifikat uji tarik, kawat bronjong, dan baja ringan.</p>
+<div class="space-y-1.5 pb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Besi Ulir D10 - D25 SNI</span>
+<span class="font-semibold text-on-surface">Tersedia</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Wiremesh M6, M8, M10 Lembar/Roll</span>
+<span class="font-semibold text-on-surface">Tersedia</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Baja Ringan Canal C &amp; Reng Zinc</span>
+<span class="font-semibold text-on-surface">Tersedia</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary group-hover:translate-x-1 transition-transform" href="#">
+          Buka Katalog Besi Baja <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+<!-- Card 2: Semen & Mortar -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">hardware</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-secondary px-2.5 py-1 rounded font-bold">Mulai Rp 48.000 /sak</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs group-hover:text-primary transition-colors">Semen &amp; Mortar Instan</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-space-md">Semen portland tipe 1, mortar thinbed hebel, acian halus, dan plester cepat kering.</p>
+<div class="space-y-1.5 pb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Semen Gresik, Holcim, Tiga Roda 40-50kg</span>
+<span class="font-semibold text-on-surface">Ready Stock</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Mortar Utama (MU) Pasangan Bata Ringan</span>
+<span class="font-semibold text-on-surface">Ready Stock</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Semen Putih &amp; Tile Adhesive</span>
+<span class="font-semibold text-on-surface">Ready Stock</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary group-hover:translate-x-1 transition-transform" href="#">
+          Buka Katalog Semen <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+<!-- Card 3: Pasir & Agregat -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">grain</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-secondary px-2.5 py-1 rounded font-bold">Mulai Rp 220.000 /m³</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs group-hover:text-primary transition-colors">Pasir, Batu &amp; Agregat</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-space-md">Material curah bersih lumpur rendah, siap kirim armada dump truck Colt Diesel s/d Tronton.</p>
+<div class="space-y-1.5 pb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pasir Bangka Asli (Super Halus)</span>
+<span class="font-semibold text-on-surface">Dump Truck</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Batu Split 1-2 Cor &amp; Abu Batu</span>
+<span class="font-semibold text-on-surface">Dump Truck</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Batu Kali Pondasi &amp; Makadam</span>
+<span class="font-semibold text-on-surface">Dump Truck</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary group-hover:translate-x-1 transition-transform" href="#">
+          Buka Katalog Agregat Curah <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+<!-- Card 4: Keramik & Granit -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">dashboard</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-secondary px-2.5 py-1 rounded font-bold">Mulai Rp 115.000 /dus</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs group-hover:text-primary transition-colors">Keramik &amp; Granit Lantai</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-space-md">Pilihan motif marmer, polished porcelain tile 60x60, matte anti-slip kamar mandi.</p>
+<div class="space-y-1.5 pb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Granite Tile 60x60 Glazed Polished</span>
+<span class="font-semibold text-on-surface">Seri Premium</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Keramik Lantai 40x40 &amp; 50x50 Roman</span>
+<span class="font-semibold text-on-surface">Kualitas KW1</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Stepnosing &amp; Plint Tangga Granit</span>
+<span class="font-semibold text-on-surface">Presisi Tinggi</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary group-hover:translate-x-1 transition-transform" href="#">
+          Buka Katalog Granit <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+<!-- Card 5: Atap & Partisi -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">roofing</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-secondary px-2.5 py-1 rounded font-bold">Mulai Rp 42.000 /lbr</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs group-hover:text-primary transition-colors">Atap, Plafon &amp; Partisi</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-space-md">Spandek pasir peredam panas, genteng metal color, gypsum board Jayaboard, &amp; hollow galvalum.</p>
+<div class="space-y-1.5 pb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Spandek Pasir 0.30mm - 0.40mm</span>
+<span class="font-semibold text-on-surface">Potong Custom</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Gypsum Board 9mm Elephant/Jaya</span>
+<span class="font-semibold text-on-surface">SNI Tahan Lembab</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Rangka Hollow 2x4 &amp; 4x4 Tebal 0.3mm</span>
+<span class="font-semibold text-on-surface">Anti Karat</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary group-hover:translate-x-1 transition-transform" href="#">
+          Buka Katalog Atap <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+<!-- Card 6: Cat & Waterproofing -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">format_paint</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-secondary px-2.5 py-1 rounded font-bold">Mulai Rp 180.000 /pail</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs group-hover:text-primary transition-colors">Cat &amp; Waterproofing</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-space-md">Pelapis membran anti rembes dak beton, cat eksterior cuaca tropis, dan cat primer anti alkali.</p>
+<div class="space-y-1.5 pb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Aquaproof, No Drop, Sika Coat 20kg</span>
+<span class="font-semibold text-on-surface">Waterproof Kuat</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Dulux Weathershield / Jotun Jotashield</span>
+<span class="font-semibold text-on-surface">Garansi 8 Tahun</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Sikadur Epoxy Grouting &amp; Sealant</span>
+<span class="font-semibold text-on-surface">Kelas Industri</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary group-hover:translate-x-1 transition-transform" href="#">
+          Buka Katalog Cat &amp; Pelapis <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+</div>
+</section>
+<!-- PRODUK TERLARIS & PROMO GROSIR KONTRAKTOR -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="bg-surface-container-low rounded-2xl p-space-lg md:p-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs text-primary font-bold">
+<span class="material-symbols-outlined text-lg">local_fire_department</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-extrabold">Stok Siap Kirim Hari Ini</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface">Produk Terlaris &amp; Harga Grosir Kontraktor</h2>
+<p class="font-body-md text-body-md text-secondary mt-1">Tier diskon otomatis berlaku untuk pembelian volume proyek dan kontraktor rekanan.</p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md font-bold text-tertiary flex items-center gap-1 bg-tertiary-container px-3 py-1.5 rounded-lg">
+<span class="material-symbols-outlined text-base">check_circle</span> Update Harga Real-time (PPN 11%)
+          </span>
+</div>
+</div>
+<!-- Product Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Item 1: Semen Gresik 40kg -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex flex-col justify-between">
+<div>
+<div class="relative w-full h-44 rounded bg-surface-container overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Stacked authentic branded paper sacks of Portland Cement Gresik on wooden delivery pallet in clean construction warehouse" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpkamlLSm8TtVjgFBS7LvyfbL-of3tKjPROh8eYvImTtvkCIyBxgFyHvsqfnoLu1wpeGYOqP-gIRXypZRnX5RhJXWiNBrzuhIVFR3PzxNibZn_2OM31IobGekp9ISjO1K_XujCeYfFK0h1AfEVw7g0YuupTmIFlhTYBfssxa5r0hTjRRx97GmtINqQshnul5BQysDLwshgwVHRlRRvK_ucVvLe8C4g2E3mcYx5jo9Gz-ZoYVVKaGZy">
+<span class="absolute top-2 left-2 bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase">SNI 2049:2015</span>
+<span class="absolute bottom-2 right-2 bg-surface-container-lowest/90 text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">SKU: SMN-GRS-40</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-secondary uppercase tracking-wider">PT Semen Indonesia</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-snug">Semen Portland Tipe I (40kg)</h4>
+<div class="mt-space-sm pt-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-spec-numerical text-spec-numerical font-extrabold text-on-surface">Rp 53.500</span>
+<span class="font-body-sm text-body-sm text-secondary">/sak</span>
+</div>
+<div class="bg-surface-container p-2 rounded mt-1 flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-primary">Min. 100 Sak:</span>
+<span class="font-label-md text-label-md font-extrabold text-primary">Rp 50.800 /sak</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm font-bold mb-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Stok Gudang: 4.800 Sak
+            </div>
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold py-2.5 rounded transition-colors flex items-center justify-center gap-1.5" onclick="addToCart('Semen Portland 40kg', 53500)">
+<span class="material-symbols-outlined text-base">add_shopping_cart</span>
+<span>+ Keranjang Proyek</span>
+</button>
+</div>
+</div>
+<!-- Item 2: Besi Beton Ulir D13 -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex flex-col justify-between">
+<div>
+<div class="relative w-full h-44 rounded bg-surface-container overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Close up view of certified ribbed structural deformed steel rebar rods with manufacturer stamp in industrial metal workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgjvXdNsQ4UMaX4xRNz5ThIJbnsPMTw16rFOKfusvJpAT_Ynf5UK32BLs0IINo5IZwbPyIs0kuyIvPthfvBZNw03u4IblOJrabzAU81R08SRIOSGsn-NEoEM9Kghu_CqStjUHhCII_6dtePytZbD9McPA1YoXAtpNXV1k_QI8fSEOent4X-Vxwcp7ThLRID9DvavywVw3RNepXP6Ipzcvxq9hWmbxKr3_Li-SOEPWtCK6UFDwjxIIx">
+<span class="absolute top-2 left-2 bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase">SNI BjTS 420B</span>
+<span class="absolute bottom-2 right-2 bg-surface-container-lowest/90 text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">SKU: BST-ULR-13</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-secondary uppercase tracking-wider">Krakatau Steel / Master</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-snug">Besi Beton Ulir D13 (12 Meter)</h4>
+<div class="mt-space-sm pt-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-spec-numerical text-spec-numerical font-extrabold text-on-surface">Rp 128.500</span>
+<span class="font-body-sm text-body-sm text-secondary">/batang</span>
+</div>
+<div class="bg-surface-container p-2 rounded mt-1 flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-primary">Min. 50 Btg:</span>
+<span class="font-label-md text-label-md font-extrabold text-primary">Rp 124.000 /btg</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm font-bold mb-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Toleransi Full 0.2mm (SNI)
+            </div>
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold py-2.5 rounded transition-colors flex items-center justify-center gap-1.5" onclick="addToCart('Besi Beton Ulir D13', 128500)">
+<span class="material-symbols-outlined text-base">add_shopping_cart</span>
+<span>+ Keranjang Proyek</span>
+</button>
+</div>
+</div>
+<!-- Item 3: Mortar Thinbed MU-380 -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex flex-col justify-between">
+<div>
+<div class="relative w-full h-44 rounded bg-surface-container overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Neat stacked bags of adhesive thinbed mortar for lightweight aerated concrete blocks inside a building materials distribution center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmSRxNVdRplC3ZAbmrXvdSqyJTEQJ24VwR7aIOtPxg7OlgRle-EJh8eq_qtEr6sR6_u7Cs3zUzJkkP_7xLXMGT5k-xIxtIF8iJNjSMfRechitlg84mRvIv3YFcB8CL9R8BlaQfXrOCwwwzX2jUCd8G0R1Sk7jjHz65vdDFgYn3lo3SN-YB3FJTd5lVPQPRQa4RUSHT_s--idTLoTnKsl1vKfcyubEZ1Ppd0Yt1kAZAC-d7SitYhSuY">
+<span class="absolute top-2 left-2 bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase">ISO 9001:2015</span>
+<span class="absolute bottom-2 right-2 bg-surface-container-lowest/90 text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">SKU: MRT-MU380-40</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-secondary uppercase tracking-wider">Mortar Utama Weber</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-snug">Mortar Thinbed MU-380 (40kg)</h4>
+<div class="mt-space-sm pt-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-spec-numerical text-spec-numerical font-extrabold text-on-surface">Rp 89.000</span>
+<span class="font-body-sm text-body-sm text-secondary">/sak</span>
+</div>
+<div class="bg-surface-container p-2 rounded mt-1 flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-primary">Min. 40 Sak:</span>
+<span class="font-label-md text-label-md font-extrabold text-primary">Rp 84.500 /sak</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm font-bold mb-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Daya Sebar: 10m² Hebel
+            </div>
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold py-2.5 rounded transition-colors flex items-center justify-center gap-1.5" onclick="addToCart('Mortar Thinbed MU-380', 89000)">
+<span class="material-symbols-outlined text-base">add_shopping_cart</span>
+<span>+ Keranjang Proyek</span>
+</button>
+</div>
+</div>
+<!-- Item 4: Granit 60x60 Glazed Polished -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex flex-col justify-between">
+<div>
+<div class="relative w-full h-44 rounded bg-surface-container overflow-hidden mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="High gloss white polished marble veined porcelain tiles displayed vertically in luxury architectural sample showroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxjNUaHvA1LFnTRnSO9KNPRBMQ2f7DJwkqNiaqI7FHm17Mm0QZGw5sVg36gXq5vLmZ-3-YNMCfWEpITrq-X_zJgfTeloibTn6I-RGLpwj8k5X5tGGtcFQfYCjrvm33lS91yEvEsmAEDLTejBtj_4bT8PPbQwNbkgEbpCU3fp8FvU81xgDKXn8e89RsJq7seQkifevaIcbh-U7QTrQ5x4Dg9XMTMp-yoRjQG84geI_8fuQ_pirSHgMf">
+<span class="absolute top-2 left-2 bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase">Kualitas KW1</span>
+<span class="absolute bottom-2 right-2 bg-surface-container-lowest/90 text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">SKU: GRN-CARR-60</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-secondary uppercase tracking-wider">Indogress Porcelain</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-snug">Granit Carrara White 60x60</h4>
+<div class="mt-space-sm pt-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-spec-numerical text-spec-numerical font-extrabold text-on-surface">Rp 178.000</span>
+<span class="font-body-sm text-body-sm text-secondary">/dus (1.44m²)</span>
+</div>
+<div class="bg-surface-container p-2 rounded mt-1 flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-primary">Min. 50 Dus:</span>
+<span class="font-label-md text-label-md font-extrabold text-primary">Rp 165.000 /dus</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm font-bold mb-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Stok Ready: 620 Dus
+            </div>
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold py-2.5 rounded transition-colors flex items-center justify-center gap-1.5" onclick="addToCart('Granit Carrara White 60x60', 178000)">
+<span class="material-symbols-outlined text-base">add_shopping_cart</span>
+<span>+ Keranjang Proyek</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- VALUE PILLARS / MENGAPA MEMILIH KARYAMATERIAL -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-extrabold text-primary">Kemitraan Terpercaya</span>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface mt-1">Mengapa Kontraktor &amp; Pengembang Memilih KaryaMaterial?</h2>
+<p class="font-body-md text-body-md text-secondary mt-2">
+        Infrastruktur pasokan terintegrasi yang dirancang untuk mencegah keterlambatan jadwal konstruksi dan menjaga efisiensi cashflow.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">rv_hookup</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Armada Lengkap Sendiri</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+          Tersedia armada Pick-up, Colt Diesel Double (CDD), Dump Truck, hingga Tronton Crane untuk un-loading material berat langsung di titik proyek.
+        </p>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">factory</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Harga Pabrik Tanpa Calo</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+          Kontrak langsung dengan pabrikan semen, pabrik peleburan baja, dan produsen keramik terkemuka. Harga transparan dan bersaing untuk tender.
+        </p>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Sertifikasi &amp; Uji Tarik</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+          Seluruh baja tulangan dilengkapi Mill Certificate resmi pabrik dan lolos uji bending/tarik laboratorium independen sesuai standar SNI.
+        </p>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">credit_score</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Fasilitas TOP Tempo B2B</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+          Kemudahan pembayaran bertahap (Term of Payment 14 hingga 45 hari kalender) untuk kontraktor bersertifikat dengan legalitas lengkap.
+        </p>
+</div>
+</div>
+</section>
+<!-- TESTIMONI KONTRAKTOR & GALERI PROYEK -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-extrabold text-primary">Rekam Jejak Lapangan</span>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface">Proyek yang Telah Kami Suplai</h2>
+</div>
+<span class="font-body-sm text-body-sm text-secondary">
+        Telah dipercaya menyuplai lebih dari 1.200 cluster hunian, pergudangan, dan gedung komersial di Indonesia.
+      </span>
+</div>
+<!-- Gallery & Testimonial Cards Mosaic -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Project 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-60 w-full">
+<img class="w-full h-full object-cover" data-alt="Active modern residential development construction site with multiple two-story houses being framed, concrete mixers, and pallets of red brick masonry under bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0BX19mxInfm_vUFN2QASjZmjFnUElAiz5CtO_Pu5M3UrYYS8ndzrK584vbLnKZzRlNc1N9H-QFEQqXNifUeSXcYPx3DrAWBs1FT92zXi87GALESXVPqkenxDJmvUe6p7rgSLyzPmKIntCa-gwM7VzUVdGvEQW2___5P1ZoF604cwqLpf-CUTmTpqBk802PSb3KSrwpLh8R4Csy8uNz28DYW8A5lFpxY-94knBYf20VTpTwX22YrLh">
+<div class="absolute top-3 left-3 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface px-2.5 py-1 rounded font-label-sm text-label-sm font-bold">
+            Perumahan Grand Bekasi
+          </div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-primary mb-2">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic mb-space-md">
+              "KaryaMaterial menyuplai 320 ton besi beton dan 14.000 sak semen tanpa pernah telat 1 haripun dari jadwal cor kami. Timbangan akurat dan faktur pajaknya selalu tertib."
+            </p>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Ir. Bambang Trihatmojo</span>
+<span class="font-label-sm text-label-sm text-secondary block">Project Director • PT Nusa Graha Utama</span>
+</div>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-1 rounded font-semibold">180 Unit Rumah</span>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-60 w-full">
+<img class="w-full h-full object-cover" data-alt="Expansive industrial logistics warehouse construction with massive steel structural portal frames, heavy concrete slab floor curing, and engineering trucks parked" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK9e2nr0xSIYQUuWrDCACrqPt8G0eh0h_gvE6l1xwfV8Wlj2qEVVrnpMJWiPtmV0NeZMwy9Fzbin3mPSw0EptScU5B0vHyeOHVBOxjSO2EWh9RZKoa01Tyewfa0c5k_BYZBIgH4Ztbq-BjwWh2mb1GPgR0fdziTApYNnm6GRfNC1aLZRN6cs_CC8NPA5t3JW0paxPu6SywIOIbo7fAU9RR_PphNMu7fexZgwxAP1Ln1JgQhriVMv9W">
+<div class="absolute top-3 left-3 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface px-2.5 py-1 rounded font-label-sm text-label-sm font-bold">
+            Pabrik &amp; Pergudangan KIIC Karawang
+          </div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-primary mb-2">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic mb-space-md">
+              "Untuk spesifikasi lantai cor heavy duty 5.000 m², kami memesan wiremesh M10 dan aditif beton. Kemampuan mereka koordinasi logistik tronton masuk site jam 11 malam sangat membantu."
+            </p>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Hendrik S.T.</span>
+<span class="font-label-sm text-label-sm text-secondary block">Site Manager • PT Total Citra Kontraktor</span>
+</div>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-1 rounded font-semibold">Gudang 5.000 m²</span>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-60 w-full">
+<img class="w-full h-full object-cover" data-alt="Modern commercial shophouse facade renovation in Serpong showing aluminum composite panels, sleek ceramic exterior cladding, and scaffold staging" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCur_z_k-OPjL1sSmNu0JbLkTDrQYFYjqS7dS1TWj6yalYUCQSXBnFnGD3lZm2iKwOYyKNrYF-2TVmKWXbSWORqs0_bK9xApgLjpptlQA4ceEb8bb6pC-9hfZGeehylIUfvWrtJTCLQj0Z0B99caz9b6ZQNw06qr6C9yrdfwJ4V0AZACftpmc21gl55K7Pv6is4BTKZ1gI9xP2WAn6GLhE1A8oNmrq2wv0S1cXKup6yWnv8pTw7bFIN">
+<div class="absolute top-3 left-3 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface px-2.5 py-1 rounded font-label-sm text-label-sm font-bold">
+            Renovasi Kompleks Ruko Gading Serpong
+          </div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-primary mb-2">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic mb-space-md">
+              "Fitur kalkulator simulasi di websitenya presisi banget untuk estimasi keramik 60x60 dan semen instan. Layanan invoice tempo 30 harinya sangat menopang cashflow proyek kami."
+            </p>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Denny Wijaya</span>
+<span class="font-label-sm text-label-sm text-secondary block">Owner • CV Bangun Mitra Sejahtera</span>
+</div>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-1 rounded font-semibold">12 Unit Ruko 3 Lt</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA BANNER KONSULTASI RAB & BoQ MATERIAL -->
+<section class="max-w-[1440px] mx-auto px-margin pb-space-xl w-full">
+<div class="bg-inverse-surface text-inverse-on-surface rounded-2xl p-space-lg md:p-space-xl relative overflow-hidden shadow-2xl">
+<!-- Glow ambient accent -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-space-xs bg-tertiary-container text-on-tertiary-container px-space-sm py-1 rounded font-label-sm text-label-sm font-bold uppercase w-fit">
+<span class="material-symbols-outlined text-sm">engineering</span>
+<span>Layanan Engineer Gratis</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl font-bold tracking-tight text-inverse-on-surface">
+            Punya Gambar Kerja atau Bill of Quantity (BoQ)?
+          </h2>
+<p class="font-body-lg text-body-lg text-secondary-container max-w-2xl">
+            Kirimkan berkas tender atau daftar kebutuhan material Anda. Tim Quantity Surveyor &amp; Technical Engineer KaryaMaterial akan menghitungkan estimasi volume tepat &amp; penawaran harga grosir terbaik dalam 2 jam kerja.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs text-body-sm font-body-sm text-inverse-on-surface/80">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-tertiary-fixed">check_circle</span> Format PDF / CAD / Excel
+            </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-tertiary-fixed">check_circle</span> Penawaran Resmi Bermaterai &amp; Faktur PPN
+            </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-tertiary-fixed">check_circle</span> Tanpa Biaya Konsultasi
+            </span>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-sm bg-surface-container-lowest/10 backdrop-blur-md p-space-md rounded-xl">
+<span class="font-label-md text-label-md font-bold text-inverse-on-surface">Upload Berkas Proyek Cepat:</span>
+<label class="flex flex-col items-center justify-center p-space-md bg-surface-container-lowest/5 hover:bg-surface-container-lowest/15 rounded-lg cursor-pointer transition-colors text-center">
+<span class="material-symbols-outlined text-3xl text-primary-fixed mb-1">upload_file</span>
+<span class="font-label-md text-label-md font-semibold text-inverse-on-surface">Klik atau Tarik File BoQ / RAB</span>
+<span class="font-label-sm text-label-sm text-secondary-container">PDF, XLSX, DWG (Maks. 25MB)</span>
+<input class="hidden" onchange="alert('Berkas Anda berhasil diterima. Engineer kami akan segera meninjau!')" type="file">
+</label>
+<a class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold py-3 rounded text-center transition-colors flex items-center justify-center gap-2" href="https://wa.me/6281288995279?text=Halo%20KaryaMaterial,%20saya%20ingin%20konsultasi%20RAB%20material%20proyek" target="_blank">
+<span class="material-symbols-outlined text-xl">chat</span>
+<span>Kirim via WhatsApp Proyek</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- FLOATING TOAST NOTIFICATION -->
+<div class="fixed bottom-6 right-6 z-50 bg-inverse-surface text-inverse-on-surface px-space-md py-space-sm rounded-lg shadow-2xl flex items-center gap-space-sm transform translate-y-32 opacity-0 transition-all duration-300 pointer-events-none" id="cart-toast">
+<span class="material-symbols-outlined text-tertiary-fixed text-xl">check_circle</span>
+<div>
+<span class="font-label-md text-label-md font-bold block" id="toast-title">Material Ditambahkan</span>
+<span class="font-body-sm text-body-sm text-secondary-container block" id="toast-sub">Berhasil masuk ke daftar pesanan proyek</span>
+</div>
+</div>
+</div>
+<script>
+  let activeTab = 'dinding';
+
+  function switchEstimator(type) {
+    activeTab = type;
+    const tabs = ['dinding', 'lantai', 'cat'];
+    tabs.forEach(t => {
+      const btn = document.getElementById('btn-tab-' + t);
+      if (t === type) {
+        btn.className = 'calc-tab px-space-md py-space-sm rounded font-label-md text-label-md font-bold bg-primary text-on-primary transition-colors flex items-center gap-1.5';
+      } else {
+        btn.className = 'calc-tab px-space-md py-space-sm rounded font-label-md text-label-md font-semibold bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors flex items-center gap-1.5';
+      }
+    });
+
+    const labelLebarName = document.getElementById('label-lebar-name');
+    if (type === 'dinding') {
+      labelLebarName.innerText = 'Tinggi Dinding';
+    } else if (type === 'lantai') {
+      labelLebarName.innerText = 'Lebar Ruangan';
+    } else {
+      labelLebarName.innerText = 'Tinggi Dinding';
+    }
+
+    calculateEstimator();
+  }
+
+  function calculateEstimator() {
+    const p = parseFloat(document.getElementById('input-panjang').value);
+    const l = parseFloat(document.getElementById('input-lebar').value);
+
+    document.getElementById('label-panjang-val').innerText = p + ' Meter';
+    document.getElementById('label-lebar-val').innerText = l + ' Meter';
+
+    const area = (p * l).toFixed(1);
+    document.getElementById('val-luas').innerText = area;
+
+    const wasteArea = area * 1.05; // 5% allowance
+
+    const res1Label = document.getElementById('res-item1-label');
+    const res1Val = document.getElementById('res-item1-val');
+    const res2Label = document.getElementById('res-item2-label');
+    const res2Val = document.getElementById('res-item2-val');
+    const resTotalCost = document.getElementById('res-total-cost');
+
+    if (activeTab === 'dinding') {
+      // 1 m2 wall ~ 70 red bricks, 0.35 sak cement
+      const bricks = Math.round(wasteArea * 70);
+      const cement = Math.ceil(wasteArea * 0.34);
+      const estPrice = (bricks * 900) + (cement * 53500);
+
+      res1Label.innerText = 'Bata Merah Standar';
+      res1Val.innerText = Number(bricks).toLocaleString('id-ID') + ' Pcs';
+      res2Label.innerText = 'Semen Portland (50kg)';
+      res2Val.innerText = cement + ' Sak';
+      resTotalCost.innerText = 'Rp ' + Number(estPrice).toLocaleString('id-ID') + '*';
+    } else if (activeTab === 'lantai') {
+      // 1 box 60x60 is 1.44m2, tile adhesive ~ 0.2 sak/m2
+      const boxes = Math.ceil(wasteArea / 1.44);
+      const adhesive = Math.ceil(wasteArea * 0.18);
+      const estPrice = (boxes * 178000) + (adhesive * 89000);
+
+      res1Label.innerText = 'Granit 60x60 (Dus)';
+      res1Val.innerText = boxes + ' Dus (' + (boxes * 1.44).toFixed(1) + ' m²)';
+      res2Label.innerText = 'Semen Perekat / Adhesive';
+      res2Val.innerText = adhesive + ' Sak';
+      resTotalCost.innerText = 'Rp ' + Number(estPrice).toLocaleString('id-ID') + '*';
+    } else if (activeTab === 'cat') {
+      // 1 pail (20kg) paints ~ 100m2 for 2 coats
+      const pails = Math.ceil((wasteArea * 2) / 100);
+      const alkali = Math.ceil(wasteArea / 120);
+      const estPrice = (pails * 850000) + (alkali * 420000);
+
+      res1Label.innerText = 'Cat Tembok Utama (20kg)';
+      res1Val.innerText = pails + ' Pail (2 Lapis)';
+      res2Label.innerText = 'Cat Dasar Anti-Alkali';
+      res2Val.innerText = alkali + ' Pail';
+      resTotalCost.innerText = 'Rp ' + Number(estPrice).toLocaleString('id-ID') + '*';
+    }
+  }
+
+  function addToCart(itemName, price) {
+    const toast = document.getElementById('cart-toast');
+    const toastTitle = document.getElementById('toast-title');
+    const toastSub = document.getElementById('toast-sub');
+
+    toastTitle.innerText = itemName + ' Ditambahkan!';
+    toastSub.innerText = 'Harga per unit: Rp ' + Number(price).toLocaleString('id-ID');
+
+    toast.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+    }, 2800);
+  }
+
+  // Initial Calculation on Load
+  calculateEstimator();
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface"><div class="max-w-[1440px] mx-auto px-margin py-space-xl grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-3 h-3 bg-primary rounded-sm"></div><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">KaryaMaterial</span></div><p class="font-body-md text-body-md text-on-surface-variant">Platform pengadaan dan suplai material konstruksi terpercaya di Indonesia. Menyediakan jaminan kepastian pasokan, kepatuhan mutu SNI/ISO, serta logistik terintegrasi untuk skala proyek mandiri hingga institusional.</p><div class="flex flex-wrap gap-space-xs"><span class="bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm px-space-sm py-1 rounded font-bold uppercase tracking-wider">SNI Certified</span><span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-space-sm py-1 rounded font-bold uppercase tracking-wider">ISO 9001:2015</span><span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-space-sm py-1 rounded font-bold uppercase tracking-wider">LPJK Terdaftar</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Kategori Populer</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Semen &amp; Mortar Struktural</li><li class="hover:text-primary transition-colors cursor-pointer">Besi Beton Ulir &amp; Polos (SNI)</li><li class="hover:text-primary transition-colors cursor-pointer">Keramik Lantai &amp; Granit Dinding</li><li class="hover:text-primary transition-colors cursor-pointer">Genteng Metal &amp; Spandek Pasir</li><li class="hover:text-primary transition-colors cursor-pointer">Cat Eksterior &amp; Pelapis Anti Bocor</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Layanan Khusus</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Simulasi Material Online</li><li class="hover:text-primary transition-colors cursor-pointer">Pengadaan Proyek B2B Enterprise</li><li class="hover:text-primary transition-colors cursor-pointer">Layanan Sewa Truk Tronton &amp; Crane</li><li class="hover:text-primary transition-colors cursor-pointer">Request Penawaran Tender (RFQ)</li><li class="hover:text-primary transition-colors cursor-pointer">Fasilitas Invoice Tempo Kontraktor</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Hubungi Kami &amp; Pusat</span><div class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><div><span class="font-bold text-on-surface block">Kantor Operasional &amp; Hub Logistik:</span><span>Kawasan Industri MM2100, Cikarang Barat, Bekasi &amp; Pulogadung, Jakarta Timur</span></div><div><span class="font-bold text-on-surface block">Kontak Proyek &amp; WhatsApp 24/7:</span><span>+62 812-8899-5279 / (021) 899-2345</span></div><div><span class="font-bold text-on-surface block">Jam Operasional Armada:</span><span>Senin - Sabtu: 06:00 - 22:00 WIB</span></div></div></div></div><div class="bg-surface-container"><div class="max-w-[1440px] mx-auto px-margin py-space-md flex flex-col md:flex-row items-center justify-between gap-space-md text-secondary font-label-sm text-label-sm"><span>© 2025 PT Karya Material Perkasa Tbk. Seluruh hak cipta dilindungi.</span><div class="flex flex-wrap items-center gap-space-md"><span class="font-bold uppercase text-on-surface">Metode Pembayaran Resmi:</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">BCA VA</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">MANDIRI</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">BRI</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-on-surface font-bold">BNI</span><span class="bg-surface-container-lowest px-space-sm py-1 rounded text-primary font-bold">TEMPO B2B</span></div></div></div></footer></body></html>
