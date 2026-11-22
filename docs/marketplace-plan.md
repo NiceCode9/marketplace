@@ -79,14 +79,14 @@
 ## Phase 2: Auth & Admin Shell (starter kit sudah sediakan auth)
 
 ### Task 4: Customize Auth
-- [ ] Nonaktifkan `Features::registration()` di `config/fortify.php` (hanya admin).
-- [ ] Hapus referensi route registration di frontend (Wayfinder).
-- [ ] Tambah kolom `role` di users (migration) + middleware `admin`.
-- [ ] Seed admin user.
+- [x] Nonaktifkan `Features::registration()` di `config/fortify.php` (hanya admin).
+- [x] Hapus referensi route registration di frontend (Wayfinder).
+- [x] Tambah kolom `role` di users (migration) + middleware `admin`.
+- [x] Seed admin user.
 
 ### Task 5: Admin Layout
-- [ ] Gunakan layout sidebar starter kit; sesuaikan navigasi admin: Dashboard, Produk, Kategori, Brand, Pesanan, RFQ, Quotation, UPO, Reviews, Blog, FAQ, Halaman, Simulasi, Settings.
-- [ ] Route `/admin` dashboard + stats (total produk, order baru, RFQ baru).
+- [x] Gunakan layout sidebar starter kit; sesuaikan navigasi admin: Dashboard, Produk, Kategori, Brand, Pesanan, RFQ, Quotation, UPO, Reviews, Blog, FAQ, Halaman, Simulasi, Settings.
+- [x] Route `/admin` dashboard + stats (total produk, order baru, RFQ baru).
 
 ## Phase 3: Catalog (Public)
 
